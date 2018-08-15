@@ -1,10 +1,8 @@
-body {
+ body {
     margin: 0px;
-    background-image: url(/assets/images/regal.png);
-    background-color: gray;
+    background-image: url(../images/regal.png);
+    background-repeat: repeat;
 }
-
-
 .banner {
     background-color: #ffffff;
     height: 50px;
@@ -38,16 +36,18 @@ h1 {
 
 .space {
     margin-top: 30px;
-    margin-left:105px;
-    margin-right: 105px;
-    height: 900px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 960px;
     text-align: left;
     overflow: visible;
-    background-color: white;
     padding-right: 30px;
     padding-left: 30px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
 }
 
 ul {
@@ -55,8 +55,7 @@ ul {
     float:right;
     padding: 16px;
     position: relative;
-    right: 105px;
-
+    right:135px;
 }
 
 li {
