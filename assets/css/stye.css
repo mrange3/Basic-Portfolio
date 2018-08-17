@@ -120,15 +120,14 @@ p1 {
     text-decoration: none;
 }
 
-
-
 input[type=text], select, textarea {
-    width: 100%; 
+    width: 874px; 
     padding: 12px; 
     border: 1px solid #ccc; 
     border-radius: 4px;
     margin-top: 6px;
     margin-bottom: 16px;
+
 }
 input[type=submit] {
     background-color: #4aaaa5;
@@ -136,6 +135,7 @@ input[type=submit] {
     padding: 10px;
     font-size: 15px;
 }
+
 /* It took me a long time to figure out how to center my images, until I
 saw in the example that they were aligned left. I want to keep them centered, 
 but if I wanted to match the example, I could adjust the padding on the second
